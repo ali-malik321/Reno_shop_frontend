@@ -57,14 +57,14 @@ const LatestProducts = () => {
 						<Card
 							className={classes.root}
 							onClick={() => {
-								handleNavigate(product._id)
+								handleNavigate(product?._id)
 							}}
 						>
 							<CardActionArea className={classes.cardArea}>
 								<CardMedia
 									className={classes.media}
-									image={product.images[0].preview}
-									title={product.name}
+									image={product?.images[0]?.preview}
+									title={product?.name}
 								/>
 								<CardContent className={classes.content}>
 									<Box className={classes.topTitle}>
@@ -74,12 +74,12 @@ const LatestProducts = () => {
 											component="h2"
 											className={classes.name}
 										>
-											{product.name}
+											{product?.name}
 										</Typography>
 									</Box>
 									<Box className={classes.bottomTitle}>
 										<Typography variant="body2" component="p">
-											${product.price}
+											${product?.price}
 										</Typography>
 										<Rating
 											readOnly

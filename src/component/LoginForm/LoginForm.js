@@ -34,7 +34,7 @@ const LoginForm = () => {
 	const [error, setError] = useState('')
 
 	const handleLogin = (data) => {
-		const action = login(data)
+		const action = login({...data, isAdmin:	true})
 		dispatch(action)
 			.then(unwrapResult)
 			.then((res) => {

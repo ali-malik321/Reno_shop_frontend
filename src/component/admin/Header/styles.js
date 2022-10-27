@@ -24,6 +24,8 @@ const useStyles = makeStyles((theme) => ({
 		fontSize: 30,
 		color: 'darkblue',
 		cursor: 'pointer',
+		maxWidth: 145,
+
 	},
 
 	topRight: {

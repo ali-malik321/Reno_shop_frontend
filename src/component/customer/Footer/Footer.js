@@ -8,6 +8,7 @@ import {
 	Typography,
 } from '@material-ui/core'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useStyles } from './styles'
 
 const Footer = () => {
@@ -21,26 +22,22 @@ const Footer = () => {
 							<Typography component="h3" className={classes.heading}>
 								Categories
 							</Typography>
-							<ListItemText
+							<Link to='/shop'
 								disableTypography
 								primary="Women"
 								className={classes.listLink}
-							/>
-							<ListItemText
+							>Women</Link>
+							<Link to='/shop'
 								disableTypography
 								primary="Men"
 								className={classes.listLink}
-							/>
-							<ListItemText
+							>Men</Link>
+							<Link to='/shop'
 								disableTypography
-								primary="Shoes"
+								primary="Men"
 								className={classes.listLink}
-							/>
-							<ListItemText
-								disableTypography
-								primary="Watches"
-								className={classes.listLink}
-							/>
+							>Shoes</Link>
+
 						</ListItem>
 					</List>
 				</Grid>
@@ -75,9 +72,9 @@ const Footer = () => {
 				</Grid>
 				<Grid item lg={4} md={6} sm={12}>
 					<List>
-						<ListItem className={classes.list}>
+						<ListItem id='ContactUsID' className={classes.list}>
 							<Typography component="h3" className={classes.heading}>
-								Get in touch
+								Contact Us
 							</Typography>
 							<ListItemText
 								disableTypography

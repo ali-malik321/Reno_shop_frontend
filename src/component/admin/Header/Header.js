@@ -2,7 +2,7 @@ import { Box } from '@material-ui/core'
 import React from 'react'
 import { useStyles } from './styles'
 import { BiBell, BiPodcast, BiTargetLock } from 'react-icons/bi'
-import logo from '../../../assets/images/logo.jpg'
+import logo from '../../../assets/images/tucu.png'
 
 const Header = () => {
 	const classes = useStyles()

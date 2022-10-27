@@ -2,6 +2,7 @@ import { Box, Button, Typography } from '@material-ui/core'
 import React from 'react'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
+import { Link } from 'react-router-dom'
 import { useStyles } from './styles'
 
 const responsive = {
@@ -42,7 +43,7 @@ const Banner = () => {
 					Quality Matters
 				</Typography>
 
-				<Button className={classes.action}>Shop now</Button>
+				<Link className={classes.action}to="/shop" >Shop now</Link>
 			</Box>
 			<Box className={`${classes.slide} ${classes.slide2}`}>
 				<Typography component="h1" className={classes.heading}>
@@ -51,7 +52,7 @@ const Banner = () => {
 				<Typography component="h3" className={classes.subHeading}>
 					With 30% Off
 				</Typography>
-				<Button className={classes.action}>Shop now</Button>
+				<Link className={classes.action}to="/shop" >Shop now</Link>
 			</Box>
 			<Box className={`${classes.slide} ${classes.slide3}`}>
 				<Typography component="h1" className={classes.heading}>
@@ -60,7 +61,7 @@ const Banner = () => {
 				<Typography component="h3" className={classes.subHeading}>
 					Comfort For your long day
 				</Typography>
-				<Button className={classes.action}>Shop now</Button>
+				<Link className={classes.action}to="/shop" >Shop now</Link>
 			</Box>
 			<Box className={`${classes.slide} ${classes.slide4}`}>
 				<Typography component="h1" className={classes.heading}>
@@ -69,7 +70,7 @@ const Banner = () => {
 				<Typography component="h3" className={classes.subHeading}>
 					Enjoy your summer with us
 				</Typography>
-				<Button className={classes.action}>Shop now</Button>
+				<Link className={classes.action}to="/shop" >Shop now</Link>
 			</Box>
 		</Carousel>
 	)

@@ -68,6 +68,8 @@ const useStyles = makeStyles((theme) => ({
 		color: '#f1f1f1',
 		backgroundColor: theme.palette.primary.main,
 		borderRadius: 30,
+		textAlign: 'center',
+
 		padding: '11px 0',
 		transition: '0.3s',
 		'&:hover': {

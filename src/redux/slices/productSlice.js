@@ -7,6 +7,8 @@ export const getAllProduct = createAsyncThunk(
 	async (params, { rejectWithValue }) => {
 		try {
 			return await productAPI.getAllProduct(params)
+			console.log('getAllproducts:',params)
+
 		} catch (error) {
 			return rejectWithValue(error.response)
 		}
@@ -25,13 +27,14 @@ export const getProduct = createAsyncThunk(
 		}
 	}
 )
+console.log('getproducts:',getProduct)
 
 export const addProduct = createAsyncThunk(
 	'product/addProduct',
 	async (data, { rejectWithValue, dispatch }) => {
 		try {
 			const result = await productAPI.addProduct(data)
-
+console.log('product data:',data)
 			dispatch(getAllProduct())
 
 			return result

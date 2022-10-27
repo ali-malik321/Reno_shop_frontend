@@ -64,14 +64,14 @@ const AddEditProduct = () => {
 	useEffect(() => {
 		if (location.state) {
 			reset({
-				name: location.state.name,
-				desc: location.state.desc,
-				price: location.state.price,
-				quantity: location.state.quantity,
-				inStock: location.state.inStock.toString(),
+				name: location?.state.name,
+				desc: location?.state.desc,
+				price: location?.state.price,
+				quantity: location?.state.quantity,
+				inStock: location?.state.inStock?.toString(),
 			})
 			setImagesDisplay(() => {
-				return location.state.images.map((image) => {
+				return location.state.images?.map((image) => {
 					return image
 				})
 			})
@@ -105,10 +105,10 @@ const AddEditProduct = () => {
 	// handle product
 	const handleAddProduct = (data) => {
 		console.log(data)
-		if (imagesUpload.length === 0) {
-			setError('Images are required')
-			return
-		}
+		// if (imagesUpload.length === 0) {
+		// 	setError('Images are required')
+		// 	return
+		// }
 
 		if (value.length === 0) {
 			console.log(value)
@@ -116,11 +116,11 @@ const AddEditProduct = () => {
 			return
 		}
 
-		const action = upload(imagesUpload)
-		dispatch(action)
-			.then(unwrapResult)
-			.then((res) => {
-				const product = { ...data, size: sizes, images: res }
+		// const action = upload(imagesUpload)
+		// dispatch(action)
+		// 	.then(unwrapResult)
+		// 	.then((res) => {
+				const product = { ...data, size: sizes }
 				const action = addProduct(product)
 				dispatch(action)
 					.then(unwrapResult)
@@ -142,8 +142,8 @@ const AddEditProduct = () => {
 						})
 					})
 					.catch((error) => setError('Name has already been taken'))
-			})
-			.catch((error) => console.log(error))
+	// 		})
+	// 		.catch((error) => console.log(error))
 	}
 
 	const handleEditProduct = (data) => {
@@ -258,7 +258,7 @@ const AddEditProduct = () => {
 								<Controller
 									rules={{ required: true }}
 									control={control}
-									defaultValue={location?.state?.inStock.toString() || 'true'}
+									defaultValue={location?.state?.inStock?.toString() || 'true'}
 									{...register('inStock')}
 									required
 									render={({ field }) => {
@@ -305,7 +305,7 @@ const AddEditProduct = () => {
 								select
 								variant="outlined"
 								{...register('category')}
-								defaultValue={location?.state?.category._id}
+								defaultValue={location?.state?.category?._id}
 								required
 							>
 								{categories?.map((category) => {
@@ -391,4 +391,4 @@ const AddEditProduct = () => {
 	)
 }
 
-export default AddEditProduct
+export default AddEditProduct;

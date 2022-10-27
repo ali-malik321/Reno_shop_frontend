@@ -1,16 +1,17 @@
 import { Button, Grid, Paper, Typography } from '@material-ui/core'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useStyles } from './styles'
 const Category = () => {
 	const classes = useStyles()
 	return (
-		<Grid container justifyContent="space-between">
+		<Grid container justifyContent="space-around">
 			<Grid item lg={4} md={6} sm={12}>
 				<Paper className={classes.card}>
 					<Typography component="h3" className={classes.heading}>
 						Women
 					</Typography>
-					<Button className={classes.action}>Shop now</Button>
+					<Link className={classes.action}to="/shop" >Shop now</Link>
 				</Paper>
 			</Grid>
 			<Grid item lg={4} md={6} sm={12}>
@@ -18,15 +19,7 @@ const Category = () => {
 					<Typography component="h3" className={classes.heading}>
 						Men
 					</Typography>
-					<Button className={classes.action}>Shop now</Button>
-				</Paper>
-			</Grid>
-			<Grid item lg={4} md={6} sm={12}>
-				<Paper className={classes.card}>
-					<Typography component="h3" className={classes.heading}>
-						Women
-					</Typography>
-					<Button className={classes.action}>Shop now</Button>
+					<Link className={classes.action}to="/shop" >Shop now</Link>
 				</Paper>
 			</Grid>
 		</Grid>

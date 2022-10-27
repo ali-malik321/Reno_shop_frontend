@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import '../App.css'
 import PrivateRoute from '../component/PrivateRoute/PrivateRoute'
 import PublicRoute from '../component/PublicRoute/PublicRoute'
+import AboutUs from '../pages/customer/About/aboutUs'
 
 // Admin pages
 const HomeAdmin = lazy(() => import('../pages/admin/Home/Home'))
@@ -98,6 +99,11 @@ const routesApp = [
 	{
 		path: '/shop',
 		component: Shop,
+	},
+	{
+		exact: true,
+		path: '/aboutus',
+		component: AboutUs,
 	},
 	{
 		exact: true,

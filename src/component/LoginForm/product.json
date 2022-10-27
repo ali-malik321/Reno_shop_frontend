@@ -1,0 +1,586 @@
+{
+    "count": 9,
+    "page": 1,
+    "pages": 2,
+    "products": [
+        {
+            "name": "Nike SB Nyjah Free 2 Premium",
+            "desc": "The Nike SB Nyjah Free 2 is a sequel worthy of its predecessor",
+            "category": {
+                "name": "Running",
+                "createdAt": "2021-11-17T08:45:58.121Z",
+                "updatedAt": "2021-11-17T08:45:58.121Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 71,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/vyy5dr5m08n6e0mpdob6",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946876/MERN-Ecommerce/vyy5dr5m08n6e0mpdob6.jpg"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/btz1nkhyppnv8hfcjkg5",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946876/MERN-Ecommerce/btz1nkhyppnv8hfcjkg5.png"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T07:01:17.892Z",
+            "updatedAt": "2021-12-08T07:01:17.892Z",
+            "__v": 0
+        },
+        {
+            "name": "Nike SB Nyjah Free 2",
+            "desc": "Skate into history with the sequel that lets you go beyond the unimaginable",
+            "category": {
+                "name": "Baseball",
+                "createdAt": "2021-11-18T05:12:23.794Z",
+                "updatedAt": "2021-11-18T05:12:23.794Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 100,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/gal2fsmx6tj3zcgfalzo",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946822/MERN-Ecommerce/gal2fsmx6tj3zcgfalzo.jpg"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/wbacavu9xyndsdpqvl8m",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946822/MERN-Ecommerce/wbacavu9xyndsdpqvl8m.png"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T07:00:23.751Z",
+            "updatedAt": "2021-12-08T07:00:23.751Z",
+            "__v": 0
+        },
+        {
+            "name": "Jordan Series .02 \"Dear Deloris\"",
+            "desc": "For a young man learning to fly, she helped him stay grounded",
+            "category": {
+                "name": "Baseball",
+                "createdAt": "2021-11-18T05:12:23.794Z",
+                "updatedAt": "2021-11-18T05:12:23.794Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 41,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/uue2h24lonqqo5lbmtai",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946500/MERN-Ecommerce/uue2h24lonqqo5lbmtai.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/n1b1lqalciik66sdwvco",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946501/MERN-Ecommerce/n1b1lqalciik66sdwvco.png"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T06:55:02.336Z",
+            "updatedAt": "2021-12-08T06:55:02.336Z",
+            "__v": 0
+        },
+        {
+            "name": "Jordan ADG 3",
+            "desc": "Taking its cues from the Jordan 4, the Jordan ADG 3 is the perfect pairing",
+            "category": {
+                "name": "Football",
+                "createdAt": "2021-11-18T05:12:14.360Z",
+                "updatedAt": "2021-11-18T05:12:14.360Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 68,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/ay4xv2dnpgmpurkcaxaj",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946450/MERN-Ecommerce/ay4xv2dnpgmpurkcaxaj.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/rtfagwoxni5snoifz377",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946450/MERN-Ecommerce/rtfagwoxni5snoifz377.jpg"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T06:54:11.821Z",
+            "updatedAt": "2021-12-08T06:54:11.821Z",
+            "__v": 0
+        },
+        {
+            "name": "Air Jordan 11 Retro Low IE",
+            "desc": "The Air Jordan 11 Retro Low IE Shoe offers a fresh take on one of the most beloved Jordan designs ever",
+            "category": {
+                "name": "Jordan",
+                "createdAt": "2021-11-18T05:12:00.823Z",
+                "updatedAt": "2021-11-18T05:12:00.823Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 88,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/renlxqjkhprvjhsfjqfl",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946396/MERN-Ecommerce/renlxqjkhprvjhsfjqfl.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/uxvh9qs071yvmuu6a4b0",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946397/MERN-Ecommerce/uxvh9qs071yvmuu6a4b0.jpg"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T06:53:18.382Z",
+            "updatedAt": "2021-12-08T06:53:18.382Z",
+            "__v": 0
+        },
+        {
+            "name": "Air Jordan 3 Retro SE",
+            "desc": "This version is a crossover over from court to street",
+            "category": {
+                "name": "Running",
+                "createdAt": "2021-11-17T08:45:58.121Z",
+                "updatedAt": "2021-11-17T08:45:58.121Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 120,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/p9ycbjb1bcf6vpnwdgsg",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946336/MERN-Ecommerce/p9ycbjb1bcf6vpnwdgsg.jpg"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/rn0eztrxfato9atgxnbr",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946337/MERN-Ecommerce/rn0eztrxfato9atgxnbr.png"
+                }
+            ],
+            "inStock": false,
+            "createdAt": "2021-12-08T06:52:18.601Z",
+            "updatedAt": "2021-12-08T06:52:18.601Z",
+            "__v": 0
+        },
+        {
+            "name": "Air Jordan 3 Retro",
+            "desc": "A twist on the original 'Black Cement' colourway",
+            "category": {
+                "name": "Air force 1",
+                "createdAt": "2021-11-11T13:13:41.759Z",
+                "updatedAt": "2021-11-17T08:51:00.302Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 49,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/atjotmhkrltodyjf7cpn",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946282/MERN-Ecommerce/atjotmhkrltodyjf7cpn.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/l4y4c08o49gn9rz6jjio",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946283/MERN-Ecommerce/l4y4c08o49gn9rz6jjio.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/nas4snsf03deplpgyp9y",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946283/MERN-Ecommerce/nas4snsf03deplpgyp9y.jpg"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T06:51:24.531Z",
+            "updatedAt": "2021-12-08T06:51:24.531Z",
+            "__v": 0
+        },
+        {
+            "name": "Air Jordan 1 Mid SE",
+            "desc": "Inspired by Mictlán, this is a story of family connections",
+            "category": {
+                "name": "Baseball",
+                "createdAt": "2021-11-18T05:12:23.794Z",
+                "updatedAt": "2021-11-18T05:12:23.794Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 23,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/rrmox1v9c7vkezxeiaia",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946224/MERN-Ecommerce/rrmox1v9c7vkezxeiaia.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/taj8kwzaqlrisnyuqqi6",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946224/MERN-Ecommerce/taj8kwzaqlrisnyuqqi6.jpg"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/i3vmbi1tv4davbclfalc",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1638946225/MERN-Ecommerce/i3vmbi1tv4davbclfalc.png"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-12-08T06:50:26.320Z",
+            "updatedAt": "2021-12-08T06:50:26.320Z",
+            "__v": 0
+        },
+        {
+            "name": "Nike Air Force 1 Low Cozi",
+            "desc": "Make this hoops-inspired legend your very own, customising details from the materials on the top to the sole underfoot",
+            "category": {
+                "name": "Air force 1",
+                "createdAt": "2021-11-11T13:13:41.759Z",
+                "updatedAt": "2021-11-17T08:51:00.302Z",
+                "__v": 0
+            },
+            "size": [
+                {
+                    "name": "39",
+                    "createdAt": "2021-11-17T12:35:26.657Z",
+                    "updatedAt": "2021-11-17T12:35:26.657Z",
+                    "__v": 0
+                },
+                {
+                    "name": "40",
+                    "createdAt": "2021-11-17T12:35:31.042Z",
+                    "updatedAt": "2021-11-17T12:35:31.042Z",
+                    "__v": 0
+                },
+                {
+                    "name": "41",
+                    "createdAt": "2021-11-17T12:35:34.310Z",
+                    "updatedAt": "2021-11-17T12:35:34.310Z",
+                    "__v": 0
+                },
+                {
+                    "name": "38",
+                    "createdAt": "2021-11-18T05:14:41.932Z",
+                    "updatedAt": "2021-11-18T05:14:41.932Z",
+                    "__v": 0
+                },
+                {
+                    "name": "37",
+                    "createdAt": "2021-11-18T05:14:45.499Z",
+                    "updatedAt": "2021-11-18T05:14:45.499Z",
+                    "__v": 0
+                },
+                {
+                    "name": "45",
+                    "createdAt": "2021-11-18T05:14:50.278Z",
+                    "updatedAt": "2021-11-18T05:14:50.278Z",
+                    "__v": 0
+                }
+            ],
+            "price": 50,
+            "images": [
+                {
+                    "public_id": "MERN-Ecommerce/x4lzaw90shs9aba0dqtf",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1637683474/MERN-Ecommerce/x4lzaw90shs9aba0dqtf.png"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/nf5rsn4m7garpifou8bp",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1637683476/MERN-Ecommerce/nf5rsn4m7garpifou8bp.jpg"
+                },
+                {
+                    "public_id": "MERN-Ecommerce/qqltxv2x5hbktiencbb9",
+                    "preview": "https://res.cloudinary.com/day4qsqhr/image/upload/v1637683478/MERN-Ecommerce/qqltxv2x5hbktiencbb9.png"
+                }
+            ],
+            "inStock": true,
+            "createdAt": "2021-11-23T16:04:39.521Z",
+            "updatedAt": "2021-11-23T16:04:39.521Z",
+            "__v": 0
+        }
+    ]
+}

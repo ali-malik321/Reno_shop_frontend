@@ -28,6 +28,7 @@ const ProductDetail = () => {
 	const { id } = useParams()
 	const user = useSelector((state) => state.auth.user)
 	const product = useSelector((state) => state.product.product)
+	console.log("🚀 ~ file: ProductDetail.js ~ line 31 ~ ProductDetail ~ product", product)
 	const productLoading = useSelector((state) => state.product.productLoading)
 
 	useEffect(() => {
@@ -44,14 +45,14 @@ const ProductDetail = () => {
 
 	const [quantity, setQuantity] = useState(1)
 	const handleIncreaseQuantity = () => {
-		if (!product.inStock) return
+		if (!product?.inStock) return
 
-		if (quantity > product.quantity) return
+		if (quantity > product?.quantity) return
 		else setQuantity(quantity + 1)
 	}
 
 	const handleDecreaseQuantity = () => {
-		if (!product.inStock) return
+		if (!product?.inStock) return
 
 		if (quantity <= 1) return
 		else setQuantity(quantity - 1)
@@ -60,14 +61,15 @@ const ProductDetail = () => {
 	const [indexSize, setIndexSize] = useState()
 	const [size, setSize] = useState()
 	const handleChangeSize = (index, size) => {
-		if (!product.inStock) return
+		if (!product?.inStock) return
 		setIndexSize(index)
 		setSize(size)
+		console.log("🚀 ~ file: ProductDetail.js ~ line 67 ~ handleChangeSize ~ size", size)
 	}
 
 	const handleAddToCart = () => {
 		// Sold out
-		if (!product.inStock) return
+		if (!product?.inStock) return
 
 		// Empty size
 		if (indexSize === undefined) {
@@ -142,6 +144,7 @@ const ProductDetail = () => {
 				.catch((error) => console.log(error))
 		} else {
 			const productData = { product, quantity, chooseSize: size }
+			console.log('productData:',productData)
 			const action = updateUser({
 				_id: user?._id,
 				cart: [...user?.cart, productData],
@@ -183,7 +186,7 @@ const ProductDetail = () => {
 										{product?.images?.map((image) => (
 											<Box style={{ position: 'relative' }}>
 												<img src={image.preview} alt="product" />
-												{!product.inStock && (
+												{!product?.inStock && (
 													<Typography
 														component="p"
 														className={classes.watermark}
@@ -197,10 +200,10 @@ const ProductDetail = () => {
 								</Box>
 								<Box className={classes.content}>
 									<Typography component="h3" className={classes.heading}>
-										{product.name}
+										{product?.name}
 									</Typography>
 									<Typography component="subtitle1" className={classes.price}>
-										${product.price}
+										${product?.price}
 									</Typography>
 									<Rating
 										readOnly
@@ -210,7 +213,7 @@ const ProductDetail = () => {
 									/>
 									<Divider style={{ margin: '20px 0' }} />
 									<Typography component="p" className={classes.desc}>
-										{product.desc}
+										{product?.desc}
 									</Typography>
 									<Box className={classes.sizeContainer}>
 										<Typography component="p" style={{ marginRight: 20 }}>
@@ -219,7 +222,7 @@ const ProductDetail = () => {
 										{product?.size?.map((size, index) => (
 											<Box
 												className={`${
-													product.inStock ? classes.size : classes.sizeDisabled
+													product?.inStock ? classes.size : classes.sizeDisabled
 												}
 												${indexSize === index && classes.activeSize}
 												`}
@@ -252,9 +255,9 @@ const ProductDetail = () => {
 											/>
 										</Box>
 										<Button
-											disableRipple={!product.inStock && true}
+											disableRipple={!product?.inStock && true}
 											className={
-												product.inStock ? classes.add : classes.addDisabled
+												product?.inStock ? classes.add : classes.addDisabled
 											}
 											onClick={handleAddToCart}
 										>

@@ -19,7 +19,7 @@ import React, { useRef, useState } from 'react'
 import { BiCartAlt, BiMenu, BiSearchAlt2 } from 'react-icons/bi'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useHistory, useLocation } from 'react-router-dom'
-import logo from '../../../assets/images/logo.jpg'
+import logo from '../../../assets/images/tucu.png'
 import { clearUser } from '../../../redux/slices/authSlice'
 import { getAllProduct } from '../../../redux/slices/productSlice'
 import Dropdown from './Drawer/Dropdown'
@@ -140,7 +140,7 @@ const Header = () => {
 							<ListItem
 								className={classes.listLink}
 								component={Link}
-								to="/"
+								to="/aboutus"
 								disableGutters
 							>
 								<ListItemText disableTypography primary={`About us`} />

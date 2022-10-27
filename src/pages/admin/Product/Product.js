@@ -164,29 +164,29 @@ const Product = () => {
 											)
 											.map((product) => {
 												return (
-													<TableRow key={product._id}>
+													<TableRow key={product?._id}>
 														<TableCell
 															component="th"
 															scope="row"
 															className={classes.productDesc}
 															align="center"
 														>
-															{product.name}
+															{product?.name}
 														</TableCell>
 														<TableCell
 															align="center"
 															className={classes.productDesc}
 														>
-															{product.desc}
+															{product?.desc}
 														</TableCell>
 														<TableCell align="center">
-															{product.category.name}
+															{product?.category?.name}
 														</TableCell>
 														<TableCell align="center">
-															${product.price}
+															${product?.price}
 														</TableCell>
 														<TableCell align="center">
-															{product.inStock.toString()}
+															{product?.inStock.toString()}
 														</TableCell>
 														<TableCell align="center">
 															<BiPencil
@@ -202,7 +202,7 @@ const Product = () => {
 															<BiX
 																style={{ cursor: 'pointer', fontSize: 20 }}
 																onClick={() => {
-																	handleDeleteProduct(product._id)
+																	handleDeleteProduct(product?._id)
 																}}
 															/>
 														</TableCell>
