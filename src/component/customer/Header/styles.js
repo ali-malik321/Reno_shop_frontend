@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 		alignItems: 'center',
 	},
 	logo: {
-		width: '20%',
+		width: '16%',
 		minWidth: 180,
 	},
 	list: {
@@ -30,7 +30,8 @@ const useStyles = makeStyles((theme) => ({
 		padding: 0,
 		display: 'flex',
 		alignItems: 'center',
-		justifyContent: 'space-around',
+		marginLeft: '10vw',
+		justifyContent: 'space-evenly',
 	},
 	listLink: {
 		textAlign: 'center',
